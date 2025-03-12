@@ -1,0 +1,133 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+.container-navbar {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul-navbar {
+    display: flex;
+    list-style: none;
+}
+
+.li-navbar {
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.li-navbar:hover {
+    background-color: peachpuff;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 3px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.a-navbar:hover {
+    color: #2D2727;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    max-width: 100%;
+}
+
+.content{
+    font-family: 'Open Sans', serif;
+}
+
+article {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+aside {
+    display: flex;
+    max-width: 20%;
+    margin-left: 0px;
+    flex-direction: column;
+}
+
+.media-social {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.media-social__linkedin {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.media-social__linkedin img {
+    width: 24px;
+    height: 24px;
+}
+
+.media-social__linkedin a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333;
+    opacity: 0.8;
+}
+
+figure {
+    padding: 2px;
+    text-align: center;
+}
+
+figure>img {
+    border: 3px solid #3E3A35;
+    border-radius: 10px;
+    max-width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-family: 'Open Sans', serif;
+    padding: 1.5px;
+    font-size: 10px;
+    text-align: center;
+}
+
+h1.h1-footer {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin: 0;
+    color: #444;
+}
